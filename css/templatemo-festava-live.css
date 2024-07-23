@@ -328,14 +328,20 @@ Video Style
 }  */
 
 .video-div {
+  /* text-align: center;
+  height: 350px; */
+
   text-align: center;
-  height: 350px;
+    height: 440px;
+    border-radius: 18px;
 }
 
 @media (max-width: 767.98px) {
   .video-div {
     width: 100% !important;
     height: 300px;
+    border-radius: 18px;
+
   }
 }
 
