@@ -37,6 +37,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-23HHECE1V5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-23HHECE1V5');
+</script>
+
+
+
 </head>
 
 <body>
@@ -45,16 +60,18 @@
 
         <div class="sub-header d-none d-md-block">
             <div class="container conthed">
-                <div class="row mt-0" style="align-items: flex-end;">
+                <div class="row mt-1">
                     <div class="col-lg-8 col-md-9">
-                        <ul class="info" style="margin-bottom: .7rem;">
+                        <ul class="info">
                             <li><i class="bi bihed bi-envelope"></i>info@muznads.sa</li>
-                            <li><i class="bi bihed bi-geo-alt"></i> الرياض المملكة العربية السعودية - الرياض حي التعاون
-                            </li>
+                            <li><i class="bi bihed bi-geo-alt"></i> الرياض المملكة العربية السعودية - الرياض حي التعاون </li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-3">
                         <ul class="social-links">
+                            <!-- <li><a href="#"><i class="bi bihed bi-facebook"></i></a></li> -->
+                            <!-- <li><a href="https://x.com" target="_blank"><i class="bi bihed bi-twitter-x"></i></a></li> -->
+
                             <li><a href="#"><i class="bi bihed bi-instagram"></i></a></li>
                             <li><a href="#"><i class="bi bihed bi-twitter-x"></i></a></li>
                         </ul>
@@ -91,7 +108,9 @@
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_3">الشركاء</a>
                         </li>
+
                     </ul>
+
                     <a href="https://send-muzon.vercel.app/" target="_blank"
                         class="btn custom-btn d-lg-block d-none">طلب خدمة</a>
                 </div>
@@ -99,33 +118,70 @@
         </nav>
 
 
-        <!-- <section class="hero-section mb-5" id="section_1"> -->
-        <section class="mb-5">
-            <!-- <div class="video-wrap">
+        <section class="hero-section mb-5" id="section_1">
+            <!-- <div class="section-overlay"></div>     -->
+
+            <!-- <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+
+                    <div class="col-12 mt-auto mb-5 text-center">
+                        <small>مزن</small>
+
+                        <h1 class="text-white mb-5">مزن</h1>
+
+                        <a class="btn custom-btn smoothscroll" href="#section_2">إبدا</a>
+                    </div>
+
+                    <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+                        <div class="date-wrap">
+                            <h5 class="text-white">
+                                <i class="custom-icon bi-clock me-2"></i>
+                                10 - 12<sup>th</sup>, Dec 2023
+                            </h5>
+                        </div>
+
+                        <div class="location-wrap mx-auto py-3 py-lg-0">
+                            <h5 class="text-white">
+                                <i class="custom-icon bi-geo-alt me-2"></i>
+                                National Center, United States
+                            </h5>
+                        </div>
+
+                        <div class="social-share">
+                            <ul class="social-icon d-flex align-items-center justify-content-center">
+                                <span class="text-white me-3">Share:</span>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-facebook"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-twitter"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-instagram"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="video-wrap">
                 <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="video/tvmuzn.mp4" aria-controls="fase" aria-disabled="true"  type="video/mp4">
-                    متصفحك الحالي لا يدعم تشغيل الفيديو.
+                    <source src="video/tvmuzn.mp4" type="video/mp4">
+                  
                 </video>
-            </div> -->
-
-            <div class="ratio ratio-16x9 video-wrap disabled-div">
-                <iframe src="https://player.vimeo.com/video/955260137?background=1" title="YouTube video"
-                    allowfullscreen aria-disabled="true"></iframe>
+                <!-- <iframe tabindex="-1" aria-disabled="true" class=" custom-video"
+                src="https://player.vimeo.com/video/973938133?background=1" allowfullscreen></iframe> -->
             </div>
-
-            <!-- <section> -->
-            <!-- <div class="video-wrap">
-                  <iframe tabindex="-1" aria-disabled="true" class="embed-responsive-item"
-                    src="https://player.vimeo.com/video/955260137?background=1" allowfullscreen></iframe>
-                </div> -->
-            <!-- </section> -->
-
-            <!-- <div class="video-wrap">
-                <iframe src="https://player.vimeo.com/video/955260137?background=1" allowfullscreen
-                autoplay="" loop="" muted="" class="custom-video" poster="">
-                    متصفحك الحالي لا يدعم تشغيل الفيديو.
-                </iframe>
-            </div> -->
         </section>
 
 
@@ -142,6 +198,8 @@
                 </div> -->
                 </div>
             </div>
+
+
 
             <div class="row pb-6 pb-lg-8 g-3 g-lg-8  px-3">
                 <div class="col-12 col-md-4">
@@ -187,8 +245,8 @@
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
                             <div class="video-frame">
-                                <video src="./video/muznVideo.mp4" controls="" controlslist="nodownload" autoplay=""
-                                    disablepictureinpicture="" class="video-div"></video>
+                                     <video src="./video/muznVideo.mp4" controls="" controlslist="nodownload"
+                                        autoplay="" disablepictureinpicture="" class="video-div"></video>
                                 <!-- <div class="iv-flex iv-flex-col iv-items-center iv-justify-center iv-w-auto col-lg-6 col-4">
                                     <div class="iv-flex iv-items-center iv-justify-center iv-w-full iv-bg-grey-7">
                                       <video src="./video/muznVideo.mp4" height="300px" controls="" controlslist="nodownload"
@@ -224,19 +282,20 @@
                 </div> -->
                     </div>
                     <div class="row g-4">
-
+                       
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="services-item position-relative">
+                                <div class="services-item position-relative">
                                 <img class="img-fluid rounded" src="./images/serv/bgimg1.jpg" alt="">
                                 <div class="services-text rounded-start">
                                     <div>
-                                        <div data-w-id="21a8af2d-3314-9826-a749-4854e7c95721"
-                                            class="feature-block__inner">
+                                        <div 
+                                            data-w-id="21a8af2d-3314-9826-a749-4854e7c95721"
+                                            class="feature-block__inner"
+                                            >
                                             <h3 class="scroll-title">
-                                                <a href="#"
-                                                    class="btn btn-primary-m text-white rounded-pill border py-2 px-3">
+                                                <p class="btn btn-primary-m text-white rounded-pill border py-2 px-3">
                                                     التخطيط الاستراتيجي والاتصالي
-                                                </a>
+                                                </p>
                                             </h3>
                                             <p class="features__p">
                                                 <span class="text-scroll-2">
@@ -263,15 +322,14 @@
                                             class="feature-block__inner">
                                             <h3 class="scroll-title">
                                                 <!-- <span class="text-scroll-1">لتسويق والترويج</span> -->
-                                                <a href="#"
-                                                    class="btn btn-primary-m text-white rounded-pill border py-2 px-3">التسويق
-                                                    والترويج</a>
+                                                <p class="btn btn-primary-m text-white rounded-pill border py-2 px-3">التسويق
+                                                    والترويج</p>
                                             </h3>
                                             <p class="features__p"><span class="text-scroll-2">
-                                                    نقدم حلول تسويقيـة مبتكـرة في
-
+                                                    نقدم حلول تسويقيـة مبتكـرة في   
+                                                    
                                                     <br />
-                                                    والمنصات الإعلاميـة والإعلانيـة٬
+                                                     والمنصات الإعلاميـة والإعلانيـة٬ 
                                                     لـتعظيــم الــوصـــــول والـظـهـــــور للـشـركـــاء
 
                                                 </span></p>
@@ -318,16 +376,16 @@
                                             class="feature-block__inner">
                                             <h3 class="scroll-title">
                                                 <!-- <span class="text-scroll-1">إدارة مواقع التواصل الاجتماعي</span> -->
-                                                <a href="#"
+                                                <p 
                                                     class="btn btn-primary-m text-white rounded-pill border py-2 px-3">إدارة
-                                                    مواقع التواصل الاجتماعي</a>
+                                                    مواقع التواصل الاجتماعي</p>
 
                                             </h3>
                                             <p class="features__p"><span class="text-scroll-2">
                                                     نعزز من حضورك رقمياً على المنصات من خلال بناء
-
+                                               
                                                     استراتيجيات التواصل الاجتماعي وضمـان استمرارية
-
+                                                
                                                     الحساب بمحتوى إبداعي متجدد.
                                                 </span></p>
                                             <!-- <ul role="list" class="features__list" data-w-id="21a8af2d-3314-9826-a749-4854e7c95721">
@@ -373,16 +431,16 @@
                                             class="feature-block__inner">
                                             <h3 class="scroll-title">
                                                 <!-- <span class="text-scroll-1">المحتوى الإبداعي</span> -->
-                                                <a href="#"
+                                                <p
                                                     class="btn btn-primary-m text-white rounded-pill border py-2 px-3">المحتوى
-                                                    الإبداعي</a>
+                                                    الإبداعي</p>
 
                                             </h3>
                                             <p class="features__p"><span class="text-scroll-2">
                                                     كل تحدي حل وفكرة! ولكل فكرة ابداعية فريق متمكن
-
+                                                
                                                     يضمن لك تنفيذها، وفي مـزن نـدرس توجهك ونفـــهم
-
+                                              
                                                     متطلباتك ونقدم بعدها الأفكار الإبداعية.
                                                 </span></p>
                                             <!-- <ul role="list" class="features__list" data-w-id="21a8af2d-3314-9826-a749-4854e7c95721">
@@ -428,14 +486,14 @@
                                             class="feature-block__inner">
                                             <h3 class="scroll-title">
                                                 <!-- <span class="text-scroll-1">لإنتاج الفني والمرئي</span> -->
-                                                <a href="#"
+                                                <p
                                                     class="btn btn-primary-m text-white rounded-pill border py-2 px-3">لإنتاج
-                                                    الفني والمرئي</a>
+                                                    الفني والمرئي</p>
 
                                             </h3>
                                             <p class="features__p"><span class="text-scroll-2">
                                                     نحـن أصدقاء توثيق اللحظة بفريق متكامـل لتغطية جميع الآحداث الهامة!
-
+                                              
                                                     ويصاحبه فريق متخصص للإنتاج الفني بمختلف الأشكال.
 
                                                 </span></p>
@@ -482,9 +540,9 @@
                                             class="feature-block__inner">
                                             <h3 class="scroll-title">
                                                 <!-- <span class="text-scroll-1">تطوير العلامة التجارية والهوية</span> -->
-                                                <a href="#"
+                                                <p
                                                     class="btn btn-primary-m text-white rounded-pill border py-2 px-3">لإنتاج
-                                                    الفني والمرئي</a>
+                                                    الفني والمرئي</p>
 
                                             </h3>
                                             <p class="features__p"><span class="text-scroll-2">
@@ -530,8 +588,6 @@
         <!-- services End -->
 
 
-        <!-- <style>
-        </style> -->
 
         <section class="partners mb-5 pm-5">
             <div class="container">
@@ -540,170 +596,170 @@
                         <h3 class="mb-1 mt-5">شركائنا</h3>
                     </div>
                 </div>
-            </div>
+                </div>
 
-            <div class="row delrow col-lg-12">
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo1.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo2.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo3.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo4.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo5.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo7.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo8.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo9.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo10.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo11.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo12.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo13.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo14.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo15.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo16.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo17.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo18.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo19.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo20.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo21.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo22.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo23.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo24.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo25.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo26.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo27.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo28.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo29.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem" style="background: green;"> -->
-                    <img class="cimag" src="./images/Partners/imglogo30.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo31.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo32.png" alt="">
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-2 col-sm-3 col-3 mb-md-3 mb-sm-2 cardimg">
-                    <!-- <div class="item iitem"> -->
-                    <img class="cimag" src="./images/Partners/imglogo33.png" alt="">
-                    <!-- </div> -->
-                </div>
-            </div>
+                <div class="row delrow align-items-center justify-content-start">
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo7.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo8.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo9.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo10.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo11.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo12.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo13.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo14.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo15.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo16.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo17.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo18.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo19.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo20.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo21.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo22.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo23.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo24.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo25.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo26.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo27.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo28.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo29.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo30.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo31.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo32.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-3 mb-4">
+                        <div class="item">
+                            <img src="./images/Partners/imglogo33.png" alt="">
+                        </div>
+                    </div> 
+                </div> 
             </div>
         </section>
 
@@ -937,19 +993,15 @@ T e m p l a t e M o
 
     <script src="js/aos.js"></script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7LGWHFEKQJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7LGWHFEKQJ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-7LGWHFEKQJ');
-    </script>
-
-
+  gtag('config', 'G-7LGWHFEKQJ');
+</script>
 
 
 </body>
