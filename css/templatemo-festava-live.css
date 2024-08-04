@@ -40,7 +40,7 @@
 }
 
 body {
-  /* background-color: var(--white-color); */
+  background-color: #f9f9f9;
   /* background-image: url(../images/backbody.png); */
   background-image: url(../images/backbody.jpg);
   font-family: var(--body-font-family);
@@ -221,7 +221,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: #f9f9f9;
 }
 
 .section-overlay {
@@ -1093,6 +1093,11 @@ section.partners .item img {
   display: flex;
   justify-content: center;
   text-align: center;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  box-shadow: 0px 24px 64px #00aa9c98;
+
+  
 }
 
 .site-footer .custom-link {
@@ -1593,6 +1598,11 @@ section.partners .item img {
   background: #fff;
   border-radius: 18px;
   position: relative;
+}
+
+.faq .faq-list li:hover{
+  box-shadow: 0px 24px 64px rgba(0, 170, 156, 0.062);
+
 }
 
 .faq .faq-list a {
