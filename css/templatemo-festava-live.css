@@ -1107,12 +1107,12 @@ section.partners .item img {
 
 .site-footer .custom-link:hover,
 .site-footer .social-icon-link:hover {
-  color: rgb(255, 255, 255);
+  color: #00a99d;
   font-size: var(--copyright-text-font-size);
 }
 
 .copyright-text {
-  color: rgba(0, 0, 0, 0.45);
+  color: #00a99d;
   font-size: var(--copyright-text-font-size);
 }
 
