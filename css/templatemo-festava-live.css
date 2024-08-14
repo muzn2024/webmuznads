@@ -210,6 +210,14 @@ strong {
   color: #00a99d;
 }
 
+
+.partners-img{
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+ 
+}
+
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
@@ -469,6 +477,10 @@ Video Style
   .custom-video {
     position: absolute;
   }
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 9.666667%;
+}
 }
 
 @media (min-width: 1200px) {
