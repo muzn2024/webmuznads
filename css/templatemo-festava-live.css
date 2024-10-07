@@ -581,7 +581,7 @@ Video Style
 }
 
 [data-countup] {
-  font-size: 3rem;
+  font-size: 2.5rem;
   /* font-family: impact; */
   font-family: "Montserrat", sans-serif;
 }
@@ -1231,7 +1231,7 @@ section.partners .item img {
   }
 
   h5 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   h6 {
@@ -1323,7 +1323,7 @@ section.partners .item img {
 @media screen and (max-width: 767px) {
   .custom-btn {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 5px 15px;
   }
 }
 
@@ -1337,7 +1337,7 @@ section.partners .item img {
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   h4 {
